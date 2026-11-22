@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover, interactive-widget=resizes-content">
+    <title>Smess — код</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="code" id="code">
+        <div class="code__animation" id="codeAnimation"></div>
+
+        <div class="code__title">Введите код из письма</div>
+        <div class="code__subtitle" id="codeSubtitle">Мы отправили код на вашу почту</div>
+
+        <div class="code__cells" id="codeCells">
+            <div class="code__cell" data-index="0"></div>
+            <div class="code__cell" data-index="1"></div>
+            <div class="code__cell" data-index="2"></div>
+            <div class="code__cell" data-index="3"></div>
+            <div class="code__cell" data-index="4"></div>
+        </div>
+
+        <div class="code__error" id="codeError"></div>
+
+        <div class="code__keyboard" id="codeKeyboard">
+            <button class="code__key" data-key="1">1</button>
+            <button class="code__key" data-key="2">2</button>
+            <button class="code__key" data-key="3">3</button>
+            <button class="code__key" data-key="4">4</button>
+            <button class="code__key" data-key="5">5</button>
+            <button class="code__key" data-key="6">6</button>
+            <button class="code__key" data-key="7">7</button>
+            <button class="code__key" data-key="8">8</button>
+            <button class="code__key" data-key="9">9</button>
+            <div class="code__key code__key--empty"></div>
+            <button class="code__key" data-key="0">0</button>
+            <button class="code__key code__key--action" data-key="backspace">⌫</button>
+        </div>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.12.2/lottie.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
